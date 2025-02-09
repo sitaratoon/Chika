@@ -10,7 +10,7 @@ getLogger("pyrogram").setLevel(WARNING)
 def LOGGER(name: str) -> Logger:
     return getLogger(name)
 
-if bool(environ.get("WEBHOOK", False)):
+if bool(environ.get("WEBHOOK", true)):
 
     try:
         API_ID = int(environ.get("API_ID", 18946488))
