@@ -56,7 +56,7 @@ if bool(environ.get("WEBHOOK", True)):
 
     BOT_PICS = (environ.get('BOT_PICS', "motech")).split()
 
-    FORCE_SUB = environ.get("UPDATE_CHANNEL", "")
+    FORCE_SUB = environ.get("UPDATE_CHANNEL", "-1001661877846")
 
     SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "official_learning_bots_Support")
 
