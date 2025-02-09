@@ -54,7 +54,7 @@ if bool(environ.get("WEBHOOK", True)):
 
     DISCONNECT_COMMAND = environ.get("DISCONNECT_CMD", "disconnect")
 
-    BOT_PICS = (environ.get('BOT_PICS', "motech")).split()
+    BOT_PICS = (environ.get('BOT_PICS', "https://graph.org/file/d7185a77eb3756327117e-2f27af3caf986341f4.jpg")).split()
 
     FORCE_SUB = environ.get("UPDATE_CHANNEL", "-1001661877846")
 
